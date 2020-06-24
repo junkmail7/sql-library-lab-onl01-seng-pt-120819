@@ -1,3 +1,3 @@
 UPDATE characters
-SET characters.species = value1
-WHERE condition;
+SET characters.species = 'Martian'
+WHERE characters.id = MAX;
